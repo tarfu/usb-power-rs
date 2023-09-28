@@ -1,0 +1,16 @@
+[package]
+name = "usb-power"
+version = "0.0.0"
+authors = ["Tobias Breitwieser <tobias@breitwieser.biz>"]
+license = "apache-2.0"
+repository = "https://github.com/tarfu/usb-power-rs"
+exclude = [".gitignore", ".gitattributes", ".github"]
+documentation = "https://docs.rs/usb-power"
+description = "A library to control USB power"
+readme = "README.md"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rusb = "0.9"
